@@ -1,0 +1,92 @@
+.slicknav_menu{
+	display: none;
+}
+@media screen and (max-width: 992px){
+	html, body, .welcome-hero-area, #slider-area, .caroufredsel_wrapper, .slider-carousel, .single-slide, .slide-item-table{
+	height: auto;
+}
+.single-slide{
+	padding:100px 0;
+}
+	.welcome-hero-area{
+		overflow: inherit;
+	}
+	#menu{
+		display: none;
+	}
+	.slicknav_menu{
+		display: inline-block;
+		position: fixed;
+		right: 0;
+		top: 10px;
+		z-index: 111;
+		background: transparent;
+		margin: 0;	
+		padding: 0;
+		width: 200px;
+	}
+	.slicknav_menu ul{
+		background-color: #05F3F3;
+	}
+	.slicknav_menu li{
+		border-bottom: 1px solid #9702FF;
+	}
+	.slicknav_menu li:last-child{
+		border: none;
+	}
+	.slicknav_menu li a{
+		padding: 10px 0;
+		margin: 0;
+		text-transform: uppercase;
+		padding-left: 10px;
+		font-weight: bold;
+		-webkit-transition:all 0.3s ease-in-out;
+		-moz-transition:all 0.3s ease-in-out;
+		transition:all 0.3s ease-in-out;
+	}
+	.slicknav_menu li a:hover{
+		border-radius: 0;
+		background-color: #9702FF;
+		color: #fff;
+		padding-left: 40px;
+
+	}
+	.slicknav_btn{
+		background-color: #4e059c;
+		margin-right: 20px;
+	}
+	.team-man{
+		left: 16%;
+	}
+}
+@media screen and (max-width: 360px){
+	html, body, .welcome-hero-area, #slider-area, .caroufredsel_wrapper, .slider-carousel, .single-slide, .slide-item-table{
+	height: auto;
+}
+	.welcome-hero-area{
+		overflow: inherit;
+	}
+	.button .btn{
+		display: block;
+	}
+}
+@media screen and (max-width: 768px){
+	.team-man{
+		left: 30%;
+	}
+}
+@media screen and (max-width: 575px){
+	.team-man{
+		left: 41%;
+	}
+}
+@media screen and (max-width: 476px){
+	.team-man{
+		left: 38%;
+	}
+}
+@media screen and (max-width: 350px){
+	.team-man{
+		left: 32%;
+	}
+}
